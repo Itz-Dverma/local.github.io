@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Chaha Au Nashta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo_2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo_2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the India's first Chhattisgarhi fast food seller</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe accusantium eos, inventore explicabo magnam iure. Atque quibusdam, dolore officiis labore exercitationem amet totam mollitia, alias voluptate ipsam minus cum voluptates nostrum optio nisi est quia doloribus nihil qui obcaecati, aliquam laudantium? Molestiae harum accusamus ad?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum dignissimos dolorum incidunt commodi at! Debitis, exercitationem. Facilis minima dolor<br>alias obcaecati nostrum. Ab, fugit perferendis odio eligendi neque eos.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/Local-chaha-aau-nasta-106397044543416/"> <i class="fa fa-facebook"></i></a>
+            <a href="https://wa.me/9131738066"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/06_local_chaha_aau_nasta/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/watch?v=eu66o3W3kRE"><i class="fa fa-youtube"></i></a> 
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by LOCAL GROUP</p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

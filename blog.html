@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Chaha Au Nashta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo_2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo_2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Explore Us</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/video.png">
+                <h2>Our Dream</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque rerum optio suscipit ab dolores aperiam hic, eos sunt doloremque quidem accusamus reprehenderit tempore nostrum ipsum reiciendis perspiciatis et soluta consequatur natus. Nobis doloribus illo accusamus aliquam at dolore iure. Laudantium officiis iste fugiat aut fuga!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas dolore reprehenderit iste sunt ipsam natus commodi laboriosam adipisci delectus voluptatem eaque deleniti suscipit consectetur, quae voluptate saepe ratione eum sit molestias. Praesentium adipisci assumenda et, consequatur eligendi eveniet quidem autem eius animi nulla? Distinctio eligendi explicabo, esse placeat nobis iusto saepe omnis voluptatibus perferendis ipsa pariatur, exercitationem quidem! Iusto quaerat placeat vitae veritatis magni.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad aliquam esse! Ex, qui? Soluta sapiente eligendi nemo eaque odit quos aliquam, quae, impedit ut neque quibusdam provident maiores? Nisi quia laborum reprehenderit a. Non quae dicta similique quidem accusantium aliquid nulla quod, labore dignissimos et sapiente. Doloribus unde architecto ut quisquam ullam saepe illo, in qui esse rem incidunt.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dicta consequuntur esse veritatis deserunt quia cupiditate dignissimos vel nam, corporis deleniti nulla voluptatum eum iusto veniam vitae odit exercitationem explicabo porro! Nam, delectus numquam? Neque aliquam quas, soluta, veniam, adipisci aperiam hic minima facere unde reiciendis laudantium! Sit quam asperiores deleniti sequi facere dolore quidem consectetur provident ipsa architecto rerum, odit eligendi molestiae porro? Suscipit eius placeat perferendis modi deleniti.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-Mail">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Our Best Ones</h3>
+                <div>
+                    <span>Chila Roti</span>
+                </div>
+                <div>
+                    <span>ama ke chatni</span>
+                </div>
+                <div>
+                    <span>sabudana ke bada</span>
+                </div>
+                <div>
+                    <span>the coffee mocktail</span>
+                </div>
+                <div>
+                    <span>poha</span>
+                </div>
+                <div>
+                    <span>thekua</span>
+                </div>
+                <div>
+                    <span>doodh fara</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum dignissimos dolorum incidunt commodi at! Debitis, exercitationem. Facilis minima dolor<br>alias obcaecati nostrum. Ab, fugit perferendis odio eligendi neque eos.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/Local-chaha-aau-nasta-106397044543416/"> <i class="fa fa-facebook"></i></a>
+            <a href="https://wa.me/9131738066"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/06_local_chaha_aau_nasta/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/watch?v=eu66o3W3kRE"><i class="fa fa-youtube"></i></a> 
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by LOCAL GROUP</p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
